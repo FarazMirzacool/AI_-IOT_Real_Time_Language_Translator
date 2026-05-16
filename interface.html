@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>VocalX · Bridge Languages, Connect Worlds</title>
+    <link rel="stylesheet" href="interface.css">
+</head>
+<body>
+
+<div class="animated-bg"></div>
+<div class="particles" id="particles"></div>
+
+<div class="main-container">
+    <div class="content-wrapper">
+        <!-- Navigation -->
+        <nav class="nav">
+            <div class="logo">
+                <span>🌐</span>
+                <span>VocalX</span>
+            </div>
+            <div class="nav-links">
+                <a href="#">Home</a>
+                <a href="#importance">Why Translate?</a>
+                <a href="#synthesizer">Voice Studio</a>
+                <a href="#testimonials">Success Stories</a>
+            </div>
+        </nav>
+
+        <!-- Hero Section -->
+        <div class="hero-section">
+            <div class="hero-content">
+                <h1>Break Language Barriers,<br>Build Global Connections</h1>
+                <p>In today's interconnected world, language should never be a barrier to success. VocalX empowers businesses and individuals to communicate seamlessly across cultures.</p>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <div class="stat-number">10+</div>
+                        <div class="stat-label">Languages Supported</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">3s</div>
+                        <div class="stat-label">Low Latency</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">90%</div>
+                        <div class="stat-label">Accuracy Rate</div>
+                    </div>
+                </div>
+                <button class="cta-button" onclick="scrollToCTA()">Discover the Power →</button>
+            </div>
+            <div class="hero-image">
+                <svg class="globe-animation" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="100" cy="100" r="80" fill="none" stroke="url(#grad1)" stroke-width="2" opacity="0.3"/>
+                    <circle cx="100" cy="100" r="60" fill="none" stroke="url(#grad1)" stroke-width="2" opacity="0.5"/>
+                    <circle cx="100" cy="100" r="40" fill="none" stroke="url(#grad1)" stroke-width="2" opacity="0.7"/>
+                    <ellipse cx="100" cy="100" rx="80" ry="30" fill="none" stroke="url(#grad2)" stroke-width="1.5" opacity="0.4" transform="rotate(30, 100, 100)"/>
+                    <ellipse cx="100" cy="100" rx="80" ry="30" fill="none" stroke="url(#grad2)" stroke-width="1.5" opacity="0.4" transform="rotate(-30, 100, 100)"/>
+                    <defs>
+                        <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" stop-color="#8b5cf6"/>
+                            <stop offset="100%" stop-color="#ec4899"/>
+                        </linearGradient>
+                        <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" stop-color="#a78bfa"/>
+                            <stop offset="100%" stop-color="#f472b6"/>
+                        </linearGradient>
+                    </defs>
+                </svg>
+            </div>
+        </div>
+
+        <!-- Importance Section -->
+        <div class="importance-section reveal" id="importance">
+            <h2 class="section-title">Why Language Translation Matters</h2>
+            <div class="cards-grid">
+                <div class="card">
+                    <div class="card-icon">🌍</div>
+                    <h3>Global Business Expansion</h3>
+                    <p>Companies that translate their content see 2-3x higher international revenue. Break into new markets by speaking your customer's language.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">🤝</div>
+                    <h3>Cross-Cultural Collaboration</h3>
+                    <p>Teams across different regions can collaborate effectively when language isn't a barrier. Boost productivity by 40% with seamless communication.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">📈</div>
+                    <h3>Competitive Advantage</h3>
+                    <p>80% of consumers prefer buying from websites in their native language. Localize your content and stay ahead of competitors.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">🎓</div>
+                    <h3>Knowledge Accessibility</h3>
+                    <p>Education and information become accessible to everyone, regardless of their native language. Democratize learning globally.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">💼</div>
+                    <h3>Remote Work Enablement</h3>
+                    <p>With distributed teams worldwide, real-time translation helps remote workers collaborate as if they were in the same room.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">🛫</div>
+                    <h3>Travel & Tourism</h3>
+                    <p>Travelers and hospitality businesses benefit immensely from instant translation, creating unforgettable experiences.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">🏥</div>
+                    <h3>Healthcare Access</h3>
+                    <p>Language translation saves lives in medical emergencies. Patients receive better care when doctors and patients can communicate effectively across language barriers.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">⚖️</div>
+                    <h3>Legal & Immigration</h3>
+                    <p>Accurate translation ensures justice and fairness. Legal documents, immigration processes, and court proceedings become accessible to everyone regardless of their native language.</p>
+                </div>
+            </div>
+        </div>
+         <!-- NEW: Voice Synthesizer Studio Section -->
+        <div class="synthesizer-section reveal" id="synthesizer">
+            <h2 class="section-title">🎵 Voice Synthesizer Studio</h2>
+            <div class="synthesizer-showcase">
+                <div class="synthesizer-content">
+                    <div class="synthesizer-icon">🎙️</div>
+                    <h3>Transform Text into Natural Human Voices</h3>
+                    <p>Create professional voiceovers, narrations, and audio content in multiple languages with our advanced voice synthesis technology. Perfect for content creators, educators, and businesses.</p>
+                    
+                    <div class="features-grid">
+                        <div class="feature-item">
+                            <span>🎤</span>
+                            <div>
+                                <strong>Voice Recording</strong>
+                                <small>Record in any language with real-time transcription</small>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <span>🎭</span>
+                            <div>
+                                <strong>Multiple Tones</strong>
+                                <small>Choose from various human-like voices and accents</small>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <span>⚡</span>
+                            <div>
+                                <strong>Speed & Pitch Control</strong>
+                                <small>Customize speech rate and voice pitch</small>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <span>💾</span>
+                            <div>
+                                <strong>Download Audio</strong>
+                                <small>Save generated speech as audio files</small>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <span>🌍</span>
+                            <div>
+                                <strong>Multi-Language</strong>
+                                <small>Support for 10+ Indian and international languages</small>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <span>🎨</span>
+                            <div>
+                                <strong>Human-like Quality</strong>
+                                <small>Natural, expressive, and engaging voice synthesis</small>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <button class="synthesizer-btn" id="openSynthesizerBtn">
+                        🎵 Launch Voice Synthesizer Studio →
+                    </button>
+                </div>
+                <div class="synthesizer-preview">
+                    <div class="preview-card">
+                        <div class="preview-header">
+                            <span>🎭 Available Voice Tones</span>
+                        </div>
+                        <div class="voice-tones-list">
+                            <div class="tone-item">🎙️ David - Conversational, Friendly</div>
+                            <div class="tone-item">📰 Ravi - News, Authoritative</div>
+                            <div class="tone-item">🎬 Heera - Entertainment, Dynamic</div>
+                            <div class="tone-item">📚 Mark - Narrational, Mature</div>
+                            <div class="tone-item">💼 Zeera - Professional, Articulate</div>
+                        </div>
+                        <div class="preview-footer">
+                            <span>✨ 10+ Human-like voices available</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Testimonials Section -->
+        <!--<div class="testimonials-section reveal" id="testimonials">
+            <h2 class="section-title">Trusted by Global Professionals</h2>
+            <div class="testimonial-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-text">
+                        "VoxLingo transformed how our international team communicates. We've seen a 50% increase in cross-border project efficiency."
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">🇺🇸</div>
+                        <div class="author-info">
+                            <h4>Sarah Johnson</h4>
+                            <p>Global Operations Director, TechCorp</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-text">
+                        "As a freelancer working with clients worldwide, this tool is my secret weapon. Accurate, fast, and incredibly useful."
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">🇮🇳</div>
+                        <div class="author-info">
+                            <h4>Rajesh Kumar</h4>
+                            <p>Freelance Developer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-text">
+                        "Our customer satisfaction scores improved by 35% after implementing real-time translation for support tickets. Game-changer!"
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">🇪🇸</div>
+                        <div class="author-info">
+                            <h4>Maria Garcia</h4>
+                            <p>Customer Experience Lead</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>-->
+
+        <!-- CTA Banner -->
+        <div class="cta-banner reveal">
+            <h2>Ready to Break Language Barriers?</h2>
+            <p>Join individuals who use VocalX daily to communicate across 10+ languages.</p>
+            <button class="launch-btn" id="launchTranslatorBtn">🚀 Launch Voice Translator Now →</button>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <p>© 2024 VocalX · Breaking Barriers, Connecting Cultures · Real-time Voice Translation Assistant</p>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Overlay for Translator -->
+<div class="modal-overlay" id="translatorModal">
+    <div class="modal-content">
+        <button class="close-modal" id="closeModalBtn">✕</button>
+        <iframe class="translator-iframe" id="translatorIframe" src="about:blank"></iframe>
+    </div>
+</div>
+<script src="interface.js"></script>
+</body>
+</html>
